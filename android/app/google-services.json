@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "738502813826",
+    "firebase_url": "https://kapsule-7234.firebaseio.com",
+    "project_id": "kapsule-7234",
+    "storage_bucket": "kapsule-7234.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738502813826:android:7bd71543f89d056a",
+        "android_client_info": {
+          "package_name": "com.example.flutterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738502813826-hpjvf7favdgao2g9maiss9j1fd01guq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsARXVm4T6fzS7Ut9IILP8Jand6wdNvlw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738502813826:android:eeaa6f6ecc9b9434",
+        "android_client_info": {
+          "package_name": "com.meds.kapsule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738502813826-uoi68br1dhlv7rt5kggbjvb34jkfmqj4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meds.kapsule",
+            "certificate_hash": "ec0ed19bd5f44d14063360a1ca08f85ac7ce2d84"
+          }
+        },
+        {
+          "client_id": "738502813826-hpjvf7favdgao2g9maiss9j1fd01guq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsARXVm4T6fzS7Ut9IILP8Jand6wdNvlw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738502813826-hpjvf7favdgao2g9maiss9j1fd01guq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738502813826:android:3a50374452dcb4b8",
+        "android_client_info": {
+          "package_name": "com.meds.kapsule2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738502813826-ne4cbn550bonkgsbauio2op6p93qsdfn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meds.kapsule2",
+            "certificate_hash": "16a4a678ed71b6ed10c479da58a6558b551fa857"
+          }
+        },
+        {
+          "client_id": "738502813826-hpjvf7favdgao2g9maiss9j1fd01guq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsARXVm4T6fzS7Ut9IILP8Jand6wdNvlw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738502813826-hpjvf7favdgao2g9maiss9j1fd01guq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

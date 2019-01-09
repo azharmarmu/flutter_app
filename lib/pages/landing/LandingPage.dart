@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/pages/search_medicine/SearchMedicinePage.dart';
+import 'package:flutter_app/pages/upload_prescription/UploadPrescriptionPage.dart';
 import 'package:flutter_app/pages/landing/widgets/AlterNateWidget.dart';
 import 'package:flutter_app/pages/landing/widgets/HomeWidget.dart';
 import 'package:flutter_app/pages/landing/widgets/OrdersWidget.dart';
@@ -70,7 +71,7 @@ class _MyLandingPageState extends State<MyLandingPage> {
         onPressed: () {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => MySearchMedicinePage()),
+            MaterialPageRoute(builder: (context) => UploadPrescriptionPage()),
           );
         },
       ),
@@ -84,26 +85,26 @@ class _MyLandingPageState extends State<MyLandingPage> {
               child: IconButton(
                   icon: currentTabIndex == 0
                       ? Icon(
-                          Icons.home,
-                          color: Colors.black,
-                        )
+                    Icons.home,
+                    color: Colors.black,
+                  )
                       : Icon(
-                          Icons.home,
-                          color: Colors.black12,
-                        ),
+                    Icons.home,
+                    color: Colors.black12,
+                  ),
                   onPressed: () => changeBottomTab(0)),
             ),
             Expanded(
               child: IconButton(
                   icon: currentTabIndex == 1
                       ? Icon(
-                          Icons.show_chart,
-                          color: Colors.black,
-                        )
+                    Icons.show_chart,
+                    color: Colors.black,
+                  )
                       : Icon(
-                          Icons.show_chart,
-                          color: Colors.black12,
-                        ),
+                    Icons.show_chart,
+                    color: Colors.black12,
+                  ),
                   onPressed: () => changeBottomTab(1)),
             ),
             Expanded(child: new Text('')),
@@ -111,26 +112,26 @@ class _MyLandingPageState extends State<MyLandingPage> {
               child: IconButton(
                   icon: currentTabIndex == 3
                       ? Icon(
-                          Icons.tab,
-                          color: Colors.black,
-                        )
+                    Icons.tab,
+                    color: Colors.black,
+                  )
                       : Icon(
-                          Icons.tab,
-                          color: Colors.black12,
-                        ),
+                    Icons.tab,
+                    color: Colors.black12,
+                  ),
                   onPressed: () => changeBottomTab(3)),
             ),
             Expanded(
               child: IconButton(
                   icon: currentTabIndex == 4
                       ? Icon(
-                          Icons.settings,
-                          color: Colors.black,
-                        )
+                    Icons.settings,
+                    color: Colors.black,
+                  )
                       : Icon(
-                          Icons.settings,
-                          color: Colors.black12,
-                        ),
+                    Icons.settings,
+                    color: Colors.black12,
+                  ),
                   onPressed: () => changeBottomTab(4)),
             ),
           ],
